@@ -24,12 +24,12 @@ import { DetailsComponent } from './components/details/details.component';
     AppComponent,
     SearchBarComponent,
     HomeComponent,
-    DetailsComponent
+    DetailsComponent,
   ],
   imports: [
     FormsModule,
     BrowserModule,
-    GaugeModule,
+    GaugeModule.forRoot(),
     MatIconModule,
     MatFormFieldModule,
     MatSelectModule,
